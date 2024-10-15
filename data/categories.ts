@@ -1,21 +1,4 @@
-export type Question = {
-  questionId: string;
-  questionText: string;
-  options: string[];
-  correctAnswer: string;
-};
-
-export type SubCategory = {
-  subCategoryId: string;
-  subCategoryName: string;
-  questions: Question[];
-};
-
-export type Category = {
-  categoryId: string;
-  categoryName: string;
-  subCategories: SubCategory[];
-};
+import { Category } from '@/types/category.types';
 
 export const catgories: Category[] = [
   {
