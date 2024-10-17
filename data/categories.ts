@@ -1,6 +1,6 @@
 import { Category } from '@/types/category.types';
 
-export const catgories: Category[] = [
+export const categories: Category[] = [
   {
     categoryId: '1',
     categoryName: 'Science',
@@ -24,6 +24,22 @@ export const catgories: Category[] = [
       {
         subCategoryId: '1',
         subCategoryName: 'World Wars',
+        questions: [],
+      },
+    ],
+  },
+  {
+    categoryId: '3',
+    categoryName: 'Sports',
+    subCategories: [
+      {
+        subCategoryId: '1',
+        subCategoryName: 'Football',
+        questions: [],
+      },
+      {
+        subCategoryId: '1',
+        subCategoryName: 'Basketball',
         questions: [],
       },
     ],
